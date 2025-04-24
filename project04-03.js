@@ -17,8 +17,8 @@ const MAX_REVIEW = 1000;
 document.getElementById("limit").innerHTML = MAX_REVIEW;
 
 // Reference to elemets in the web page
-let wordCountBox = document.getElementById("countValue");
-let warningBox = document.getElementById("warningBox");
+let wordCountBox = document.getElementById("countValue"); // Step 6
+let warningBox = document.getElementById("warningBox"); // Step 6
 
 
 // Event listener for typing into the comment box
@@ -31,7 +31,7 @@ function updateCount() {
    
    // Count the number of characters in the comment box
    // Step 6
-   let commentText = document.getElementById("comment").value;
+   let commentText = document.getElementById("comment").value; // Step 6
    let charCount = countCharacters(commentText); // Step 6
    
    // Step 4
